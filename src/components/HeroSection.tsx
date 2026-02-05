@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/SushiYukiIndoor.jpeg";
+import heroImage from "@/assets/SushiYukiIndoorBar.png";
 
 const HeroSection = () => {
   return (
@@ -12,7 +12,7 @@ const HeroSection = () => {
           alt="Premium sushi platter"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-navy/70 via-navy/50 to-navy/80" />
+        <div className="absolute inset-0 bg-gradient-to-b from-navy/80 via-navy/65 to-navy/90" />
       </div>
 
       {/* Content */}
